@@ -9,7 +9,7 @@ Repo with zoomcamp homework and deliverables. This document should be useful as 
 - Python 3.9 version
 - Postgres 1.13 version
 
-## REPO MAIN COMPONENTS
+## MAIN COMPONENTS
 
 - [docs](/docs/README.md)
 - [src](/src/README.md)
