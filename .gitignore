@@ -161,3 +161,8 @@ cython_debug/
 
 # VSCODE settings
 .vscode/
+
+# Custom ignore
+src/*__pycache__*
+tests/*__pycache__*
+.database
