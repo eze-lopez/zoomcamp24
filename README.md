@@ -8,6 +8,7 @@ Repo with zoomcamp homework and deliverables. This document should be useful as 
 
 - Python 3.9 version
 - Postgres 1.13 version
+- Poetry as dependency management tool
 
 ## MAIN COMPONENTS
 

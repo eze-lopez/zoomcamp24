@@ -1,9 +1,14 @@
 FROM python:3.9
 
-RUN pip install pandas
+WORKDIR /zoomcamp24
+COPY ./ /zoomcamp24 
 
-WORKDIR /app
+ENV PYTHONPATH=${PYTHONPATH}:${PWD} 
+ENV SOME_OTHER_ENV_VARIABLE=SET_VALUE
 
-COPY pipeline.py pipeline.py
+RUN pip3 install --upgrade pip
+RUN pip3 install poetry
+RUN poetry config virtualenvs.create false
+RUN poetry install --no-dev
 
-ENTRYPOINT [ "python", "pipeline.py"]
+ENTRYPOINT [ "bash"]
