@@ -15,6 +15,7 @@ Syllabus and deadlines [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ
 ## MAIN COMPONENTS
 
 - [docs](/docs/README.md): decision made along the project.
+- [notebooks](/notebooks/README.md): notebooks with local experiments.
 - [src](/src/README.md): source code and utilities.
 - [tests](/tests/README.md): testing src.
 - [Dockerfile](/Dockerfile): app specifications.
