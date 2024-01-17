@@ -725,7 +725,17 @@ files = [
     {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
 ]
 
+[[package]]
+name = "wget"
+version = "3.2"
+description = "pure python download utility"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wget-3.2.zip", hash = "sha256:35e630eca2aa50ce998b9b1a127bb26b30dfee573702782aa982f875e3f16061"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "c4ff17c1b97ef7d778bf5e08b5b88d95a8f55ddb81f0c38284e35d38994ec56b"
+content-hash = "98d1605f83e245e0436ef1eb55c4e7bad8ff4175823b9be1e852b7a4fdfe1301"
