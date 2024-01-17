@@ -12,7 +12,7 @@ Repo with zoomcamp homework and deliverables. This document should be useful as 
 
 ## MAIN COMPONENTS
 
-- [docs](/docs/README.md)
-- [src](/src/README.md)
-- [tests](/tests/README.md)
-- [Dockerfile](/Dockerfile)
+- [docs](/docs/README.md): decision made along the project.
+- [src](/src/README.md): source code and utilities.
+- [tests](/tests/README.md): testing src.
+- [Dockerfile](/Dockerfile): app specifications.
