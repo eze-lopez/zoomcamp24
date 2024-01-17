@@ -10,6 +10,7 @@ python = "^3.9"
 pandas = "^2.1.4"
 pgcli = "^4.0.1"
 sqlalchemy = "^2.0.25"
+wget = "^3.2"
 
 
 [build-system]
