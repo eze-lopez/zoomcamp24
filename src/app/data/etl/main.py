@@ -9,8 +9,7 @@ TARGET_URL = (
 params = sys.argv
 print(f"Start ETL with params = {params}..")
 
-downloader = Downloader(TARGET_URL, "downloaded_file.csv")
-print(f"Downloading into {downloader.get_output_path()}...\n")
+downloader = Downloader(TARGET_URL)
 downloader.download_file()
 
 print("ETL ends successfully.")
