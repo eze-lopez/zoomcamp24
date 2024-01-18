@@ -1,10 +1,10 @@
 # DataTalksClub - Data Engineering 2024 Edition
 
-Zoomcamp 2024 [homepage](https://dezoomcamp.streamlit.app/).
-
 Repo with zoomcamp homework and deliverables. This document should be useful as entry point to any definition and decision made along the project.
 
-Syllabus and deadlines [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQACMLuutV5rvXg5qICuJGL-yZqIV0FBD84CxPdC5eZHf8TfzB-CJT_3Mo7U7oGVTXmSihPgQxuuoku/pubhtml).
+- Zoomcamp 2024 [homepage](https://dezoomcamp.streamlit.app/).
+- Syllabus and deadlines [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQACMLuutV5rvXg5qICuJGL-yZqIV0FBD84CxPdC5eZHf8TfzB-CJT_3Mo7U7oGVTXmSihPgQxuuoku/pubhtml).
+- Zoomcamp 2024 [repo](https://github.com/DataTalksClub/data-engineering-zoomcamp).
 
 ## STACK
 

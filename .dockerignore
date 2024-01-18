@@ -26,3 +26,4 @@ coverage.xml
 #data files
 **/*.parquet
 **/*.csv
+.docker_volumes
