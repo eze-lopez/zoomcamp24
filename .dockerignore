@@ -20,10 +20,13 @@ coverage.xml
 .pytest_cache
 .hypothesis
 
-#vscode settings
+# vscode settings
 .vscode
 
-#data files
+# data files
 **/*.parquet
 **/*.csv
 .docker_volumes
+
+# SECRETS
+.secrets
