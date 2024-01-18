@@ -168,7 +168,7 @@ tests/*__pycache__*
 .database
 
 # Data files
-*.csv
+*.csv*
 *.parquet
 
 # Docker volumes
@@ -176,3 +176,8 @@ tests/*__pycache__*
 
 # SECRETS
 .secrets/
+
+# Terraform
+.terraform/
+.terraform.lock*
+terraform*
