@@ -170,3 +170,6 @@ tests/*__pycache__*
 # Data files
 *.csv
 *.parquet
+
+# Docker volumes
+.docker_volumes/
