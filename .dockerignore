@@ -26,7 +26,14 @@ coverage.xml
 # data files
 **/*.parquet
 **/*.csv
+**/*.csv.gz
 .docker_volumes
 
 # SECRETS
 .secrets
+
+# Terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
