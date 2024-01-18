@@ -174,5 +174,5 @@ tests/*__pycache__*
 # Docker volumes
 .docker_volumes/
 
-# GCP
+# SECRETS
 .secrets/

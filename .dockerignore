@@ -28,5 +28,5 @@ coverage.xml
 **/*.csv
 .docker_volumes
 
-# data files
+# SECRETS
 .secrets
