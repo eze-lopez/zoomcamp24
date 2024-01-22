@@ -13,6 +13,8 @@ sqlalchemy = "^2.0.25"
 wget = "^3.2"
 fastparquet = "^2023.10.1"
 psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
 
 
 [build-system]
