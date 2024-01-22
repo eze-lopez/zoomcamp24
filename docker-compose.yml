@@ -1,18 +1,36 @@
+version: '3'
 services:
-  pg_database:
+  my_app:
+    build:
+      context: .
+    tty: true
+    ports:
+      - "${MYAPP_LOCALHOST_PORT}:${MYAPP_CONTAINER_PORT}"
+    volumes:
+      - "./${DOCKER_VOLUMES}/my_app_data:/zoomcamp24/localhost_data:rw"
+    depends_on:
+      - postgres
+
+  postgres:
     image: postgres:13
     environment:
-      - POSTGRES_USER=root
-      - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=ny_db
-    volumes:
-      - "./.docker_volumes/ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports:
-      - "5432:5432"
-  pg_admin:
+      - "${POSTGRES_LOCALHOST_PORT}:${POSTGRES_CONTAINER_PORT}"
+    volumes:
+      - "./${DOCKER_VOLUMES}/ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
+
+  pgadmin:
     image: dpage/pgadmin4
     environment:
-      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
-      - PGADMIN_DEFAULT_PASSWORD=root
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
     ports:
-      - "8080:80"
+      - "${PGADMIN_LOCALHOST_PORT}:${PGADMIN_CONTAINER_PORT}"
+    depends_on:
+      - postgres
+
+# volumes:
+  # postgres_data:
