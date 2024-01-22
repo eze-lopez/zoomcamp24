@@ -22,3 +22,4 @@ class Downloader:
 
 if __name__ == "__main__":
     d = Downloader()
+    print(d)

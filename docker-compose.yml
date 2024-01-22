@@ -4,6 +4,11 @@ services:
     build:
       context: .
     tty: true
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      NYC_TAXI_URL: ${NYC_TAXI_URL}
+      NYC_ZONE_URL: ${NYC_ZONE_URL}
     ports:
       - "${MYAPP_LOCALHOST_PORT}:${MYAPP_CONTAINER_PORT}"
     volumes:
