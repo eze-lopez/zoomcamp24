@@ -25,7 +25,7 @@ services:
     ports:
       - "${POSTGRES_LOCALHOST_PORT}:${POSTGRES_CONTAINER_PORT}"
     volumes:
-      - "./${DOCKER_VOLUMES}/ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
+      - "./${DOCKER_VOLUMES}/ny_taxi_db:/var/lib/postgresql/data:rw"
 
   pgadmin:
     image: dpage/pgadmin4
