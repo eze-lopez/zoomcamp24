@@ -27,7 +27,7 @@ coverage.xml
 **/*.parquet
 **/*.csv
 **/*.csv.gz
-.docker_volumes
+.docker_volumes/ny_taxi_db
 
 # SECRETS
 .secrets
